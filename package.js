@@ -1,8 +1,8 @@
 Package.describe({
-  name: "dburles:factory",
+  name: "lentan:factory",
   summary: "Factories for Meteor",
   version: "0.3.10",
-  git: "https://github.com/percolatestudio/meteor-factory.git"
+  git: "https://github.com/lentan1029/meteor-factory.git"
 });
 
 Package.on_use(function(api) {
@@ -13,6 +13,6 @@ Package.on_use(function(api) {
 });
 
 Package.on_test(function(api) {
-  api.use(["tinytest", "dburles:factory"]);
+  api.use(["tinytest", "lentan:factory"]);
   api.add_files("lib/factory_tests.js", "server");
 });
