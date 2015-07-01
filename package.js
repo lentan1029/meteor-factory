@@ -1,7 +1,7 @@
 Package.describe({
   name: "lentan:factory",
-  summary: "Factories for Meteor",
-  version: "0.3.14",
+  summary: "Factories for Meteor (with beforeHooks)",
+  version: "0.3.15",
   git: "https://github.com/lentan1029/meteor-factory.git"
 });
 
